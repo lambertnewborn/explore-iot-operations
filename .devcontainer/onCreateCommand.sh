@@ -6,6 +6,11 @@ set -o pipefail
 
 echo "Starting On Create Command"
 
+echo fs.inotify.max_user_instances=8192 | sudo tee -a /etc/sysctl.conf
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
+echo fs.file-max = 100000 | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
+
 # Create k3d cluster and forwarded ports
 k3d cluster delete
 k3d cluster create \
