@@ -20,7 +20,7 @@
       "moby": true,
       "azureDnsAutoDetection": true,
       "installDockerBuildx": false,
-      "version": "25.0.7-debian12u1",
+      "version": "23.0.7+azure-debian12u1",
       "dockerDashComposeVersion": "none"
     },
     "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": { "minikube": "none" }
