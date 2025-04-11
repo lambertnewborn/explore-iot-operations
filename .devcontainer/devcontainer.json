@@ -3,7 +3,7 @@
 {
   "name": "Kubernetes - k3d",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "image": "mcr.microsoft.com/devcontainers/base:0.210-alpine-3.21",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
   "hostRequirements": {
     "cpus": 4,
     "memory": "8gb",
