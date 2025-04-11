@@ -16,11 +16,11 @@
     },
     "ghcr.io/rio/features/k3d:1": {},
     "ghcr.io/rio/features/k9s:1" : {},
-    "ghcr.io/devcontainers/features/docker-in-docker:1": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
       "moby": true,
       "azureDnsAutoDetection": true,
       "installDockerBuildx": false,
-      "version": "lts",
+      "version": "25.0.7-debian12u1",
       "dockerDashComposeVersion": "none"
     },
     "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": { "minikube": "none" }
