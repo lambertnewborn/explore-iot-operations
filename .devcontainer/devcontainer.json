@@ -19,7 +19,7 @@
     "ghcr.io/devcontainers/features/docker-in-docker:2.12.0": {
       "moby": true,
       "azureDnsAutoDetection": true,
-      "installDockerBuildx": true,
+      "installDockerBuildx": false,
       "version": "25.0.6",
       "dockerDashComposeVersion": "none"
     },
