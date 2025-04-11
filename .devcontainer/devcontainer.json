@@ -10,10 +10,6 @@
     "storage": "32gb"
   },
   "features": {
-    "ghcr.io/devcontainers/features/azure-cli:1": {
-      "installBicep": true,
-      "version": "latest"
-    },
     "ghcr.io/rio/features/k3d:1": {},
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
       "moby": true,
